@@ -23,7 +23,9 @@ def razl(st):
             kof[2] = int(rezult[i])
     return kof
 
-
+ 
+ # Файлы 1 и 2 находятся  в корневом каталоге
+ 
 a = razl(otkr('file_1(task_b).txt'))
 b = razl(otkr('file_2(task_b).txt'))
 c = list(map(sum, zip(a, b)))
